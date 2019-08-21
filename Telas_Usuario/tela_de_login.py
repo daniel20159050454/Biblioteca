@@ -30,6 +30,7 @@ class Ui_Tela_Login(object):
         self.label_3.setObjectName("label_3")
         self.horizontalLayout_2.addWidget(self.label_3)
         self.senha = QtWidgets.QLineEdit(self.layoutWidget)
+        self.senha.setEchoMode(QtWidgets.QLineEdit.Password)
         self.senha.setObjectName("senha")
         self.horizontalLayout_2.addWidget(self.senha)
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
